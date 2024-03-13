@@ -2,6 +2,7 @@
 import { Link, Outlet } from "react-router-dom"
 
 function Layout({token,onLogout}){
+    // Berubah Juga
     return(
         <>
         <div className="flex gap-2 py-2 h=[55px] items-center justify-around bg-slate-500">
