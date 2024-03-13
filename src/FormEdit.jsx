@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 
 export default function FormEdit({ onEdit, notes, onCancel ,targetValue }) {
+    // ini berubah
     const [title,setTitle] = useState(targetValue !== null ? targetValue.title : null)
     const [note,setNotes] = useState(targetValue !== null ? targetValue.content : null)
     const [writer,setWriter] = useState(targetValue !== null ? targetValue.writer : null);
